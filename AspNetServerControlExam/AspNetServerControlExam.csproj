@@ -170,6 +170,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="AspDataGrid.aspx" />
     <Content Include="AspRepeater.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -342,6 +343,13 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="AspDataGrid.aspx.cs">
+      <DependentUpon>AspDataGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspDataGrid.aspx.designer.cs">
+      <DependentUpon>AspDataGrid.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AspRepeater.aspx.cs">
       <DependentUpon>AspRepeater.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
